@@ -91,3 +91,86 @@ padding-left: 15px;
 .nav-icons {
     padding-right: 5px;
 }
+
+/* MAIN CONTENT */
+
+.search-results {
+    position: relative;
+    margin-left: 225px;
+    width: 652px;
+    margin-bottom: 40px;
+}
+
+#related-questions {
+        position: relative;
+    margin-left: 225px;
+    width: 652px;
+    margin-bottom: 40px;
+}
+
+#related-questions div ul li {
+    font-size: medium;
+    font-weight:normal;
+    padding: 10px 0;
+    border-bottom: 1px solid #d8d8d8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#related-questions div ul li img {
+vertical-align: middle;
+padding-left: 10px;
+
+}
+
+
+h2 {
+    font-size: 25px;
+    padding-bottom: 10px;
+        border-bottom: 1px solid #d8d8d8;
+}
+
+h3 {
+    padding-top: 5px;
+    margin-bottom: 3px;
+    font-weight: normal;
+    font-size: 20px;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a h3:hover {
+    text-decoration: underline;
+}
+a h3:visited {
+    color: slateblue;
+}
+
+p {
+    line-height: 1.3;
+}
+a  {
+    text-decoration: none;
+}
+
+a cite {
+    color: seagreen;
+}
+.translation {
+    display: flex;
+
+}
+.translation a img {
+    vertical-align:middle;
+}
+.translation span {
+    color: #1a0dab;
+    
+}
+.translation span:hover {
+    text-decoration: underline;
+}
+

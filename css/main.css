@@ -1,0 +1,93 @@
+body {
+    font-size: 14px;
+    font-family: 'Open-Sans', arial, sans-serif;
+}
+
+/* HEADER STYLING */
+#nav-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+#nav-left {
+    display: flex;
+    align-items: center;
+}
+#nav-right {
+    display: flex;
+}
+.settings-app{
+    padding-right: 30px;
+}
+#searchbar{
+    background: #fff;
+    display: flex;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+    height: 39px;
+    width: 690px;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+#searchbar-input input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    word-wrap: break-word;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 16px;
+    line-height: 39px;
+    height: 39px !important;
+    padding-left: 20px;
+}
+#searchbar-icons {
+display: flex;
+align-items: center;
+}
+#searchbar-icons img{
+width: 24px;
+height: 24px;
+padding-right: 15px;
+}
+#searchbar-icons img[alt="mic"]{
+border-left: 1px solid #ebebeb;
+padding-left: 15px;
+
+}
+#searchnav ul{
+    display: flex;
+    height: 58px;
+    padding-left: 225px;
+    border-bottom: 1px solid #ebebeb;
+}
+#searchnav ul li{
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+
+#results-number {
+    color: #70757a;
+    line-height: 43px;
+    padding-left: 225px;
+}
+
+#tools{
+   padding-left: 50px;
+}
+
+.nav-icons {
+    padding-right: 5px;
+}
